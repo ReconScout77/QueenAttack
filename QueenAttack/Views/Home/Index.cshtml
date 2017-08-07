@@ -1,0 +1,17 @@
+@{
+  Layout = "_Layout";
+}
+
+<h1>Queen Attack</h1>
+
+<form action="/queen/play" method="post">
+  <label for="queen-position-x">Enter X Position for Queen:</label>
+  <input name="queen-position-x" class="form-control" id="queen-position-x" type="number">
+  <label for="queen-position-y">Enter Y Position for Queen:</label>
+  <input name="queen-position-y" class="form-control" id="queen-position-y" type="number">
+  <label for="target-position-x">Enter X Position for Target:</label>
+  <input name="target-position-x" class="form-control" id="target-position-x" type="number">
+  <label for="target-position-y">Enter Y Position for Target:</label>
+  <input name="target-position-y" class="form-control" id="target-position-y" type="number">
+  <button type="submit" class="btn btn-danger">Attack!</button>
+</form>
